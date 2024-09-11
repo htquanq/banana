@@ -19,7 +19,7 @@ class AuthService {
     if (!token || isRetry) {
       const body = {
         tgInfo: user.query_id,
-        InviteCode: "UHMFCK6",
+        InviteCode: "DN6N5A",
       };
       try {
         const { data } = await user.http.post("login", body);
