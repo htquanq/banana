@@ -1,11 +1,11 @@
-![Banana banner](https://raw.githubusercontent.com/zuydd/image/main/banana.webp)
+![Banana banner](https://raw.githubusercontent.com/htquanq/image/main/banana.webp)
 
-# Tool Auto Banana NodeJS by ZuyDD
+# Tool Auto Banana NodeJS by htquanq
 
-**Tool phát triển và chia sẻ miễn phí bởi ZuyDD**
+**Tool phát triển và chia sẻ miễn phí bởi htquanq**
 
-<a href="https://www.facebook.com/zuy.dd"><img src="https://raw.githubusercontent.com/zuydd/image/main/facebook.svg" alt="Facebook"></a>
-<a href="https://t.me/zuydd"><img src="https://raw.githubusercontent.com/zuydd/image/main/telegram.svg" alt="Telegram"></a>
+<a href="https://www.facebook.com/zuy.dd"><img src="https://raw.githubusercontent.com/htquanq/image/main/facebook.svg" alt="Facebook"></a>
+<a href="https://t.me/htquanq"><img src="https://raw.githubusercontent.com/htquanq/image/main/telegram.svg" alt="Telegram"></a>
 
 > [!WARNING]
 > Mọi hành vi buôn bán tool dưới bất cứ hình thức nào đều không được cho phép!
@@ -14,7 +14,7 @@
 
 > Yêu cầu đã cài đặt NodeJS
 
-- Bước 1: Tải về phiên bản mới nhất của tool [tại đây ⬇️](https://github.com/zuydd/banana/archive/refs/heads/main.zip)
+- Bước 1: Tải về phiên bản mới nhất của tool [tại đây ⬇️](https://github.com/htquanq/banana/archive/refs/heads/main.zip)
 - Bước 2: Giải nén tool
 - Bước 3: Tại thư mục tool vừa giải nén, chạy lệnh `npm install` để cài đặt các thư viện bổ trợ
 
@@ -61,7 +61,12 @@
 
 ## 🔄 Lịch sử cập nhật
 
-> Phiên bản mới nhất: `v0.0.4`
+> Phiên bản mới nhất: `v0.0.8`
+<details>
+<summary>v0.0.8 - 📅 19/09/2024</summary>
+  
+- Fix lỗi mở khoá proxy trước khi chờ sử lý lại lỗi 429 để các luồng dùng proxy đó phía sau không bị chặn
+</details>
 
 <details>
 <summary>v0.0.4 - 📅 06/09/2024</summary>
@@ -91,6 +96,6 @@ Mỗi đóng góp của bạn sẽ giúp chúng tôi duy trì chất lượng d�
 Mãi iu 😘😘😘
 
 <div style="display: flex; gap: 20px;">
-  <img src="https://raw.githubusercontent.com/zuydd/image/main/qr-momo.png" alt="QR Momo" height="340" />
-  <img src="https://raw.githubusercontent.com/zuydd/image/main/qr-binance.jpg" alt="QR Binance" height="340" />
+  <img src="https://raw.githubusercontent.com/htquanq/image/main/qr-momo.png" alt="QR Momo" height="340" />
+  <img src="https://raw.githubusercontent.com/htquanq/image/main/qr-binance.jpg" alt="QR Binance" height="340" />
 </div>

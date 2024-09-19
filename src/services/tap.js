@@ -10,7 +10,7 @@ class TapService {
   constructor() {}
 
   async tap(user, restTapCount) {
-    let tapCount = generatorHelper.randomInt(8, 15);
+    let tapCount = generatorHelper.randomInt(40, 60);
     if (tapCount > restTapCount) tapCount = restTapCount;
     const body = {
       clickCount: tapCount,
@@ -56,6 +56,7 @@ class TapService {
         claimSpeedUp = ads?.speedup;
       }
     }
+
     if (todayTapCount < maxTapCount) {
       user.log.log(colors.yellow(`Bắt đầu tap......`));
       while (todayTapCount < maxTapCount && count < 100) {
@@ -64,7 +65,7 @@ class TapService {
         if (!tapResponse) return;
         if (tapResponse.speedup > 0) claimSpeedUp++;
         todayTapCount += tapResponse.peel;
-        await delayHelper.delay(0.2);
+        await delayHelper.delay(2);
         count++;
       }
       user.log.log(
